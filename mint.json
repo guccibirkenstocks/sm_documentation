@@ -74,31 +74,74 @@
       ]
     },
     {
-      "group": "Tables, Metrics & Dimensions",
+      "group": "Get to know your data",
       "pages": [
         {
-          "group": "Tables",
+          "group": "Data Sources",
           "pages": [
+            "data-sources-overview",
             {
-              "group": "Looker Studio",
+              "group": "Available Integrations",
               "pages": [
-                "data-docs/looker/executive_summary",
-                "data-docs/looker/order_details",
-                "data-docs/looker/customer_details"
+                "data-docs/data-sources/available-integrations/shopify-overview",
+                "data-docs/data-sources/available-integrations/google-ads-overview"
               ]
             },
             {
-              "group": "BigQuery",
+              "group": "Configuration Sheet",
               "pages": [
-                "data-docs/tables/bigquery/executive_summary",
-                "data-docs/tables/bigquery/order_details",
-                "data-docs/tables/bigquery/customer_details"
-            ]
+                "data-docs/data-sources/configuration-sheet/configuration-sheet-overview",
+                "data-docs/data-sources/configuration-sheet/channel-mapping-tab",
+                "data-docs/data-sources/configuration-sheet/targets-tab",
+                "data-docs/data-sources/configuration-sheet/sales-tab",
+                {
+                  "group": "Costs",
+                  "pages": [
+                    "data-docs/data-sources/configuration-sheet/costs/marketing-costs",
+                    {
+                      "group": "COGS",
+                      "pages": [
+                        "data-docs/data-sources/configuration-sheet/costs/cogs-overview",
+                        "data-docs/data-sources/configuration-sheet/costs/product-costs",
+                        "data-docs/data-sources/configuration-sheet/costs/shipping-costs",
+                        "data-docs/data-sources/configuration-sheet/costs/fulfilllment-costs",
+                        "data-docs/data-sources/configuration-sheet/costs/merchant-processing-fees"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
-        "data-docs/metrics",
-        "data-docs/dimensions"
+        {
+          "group": "Tables, Metrics & Dimensions",
+          "pages": [
+            {
+              "group": "Data Tables",
+              "pages": [
+                {
+                  "group": "Looker Studio",
+                  "pages": [
+                    "data-docs/tables/looker/executive_summary",
+                    "data-docs/tables/looker/order_details",
+                    "data-docs/tables/looker/customer_details"
+                  ]
+                },
+                {
+                  "group": "BigQuery",
+                  "pages": [
+                    "data-docs/tables/bigquery/executive_summary",
+                    "data-docs/tables/bigquery/order_details",
+                    "data-docs/tables/bigquery/customer_details"
+                ]
+                }
+              ]
+            },
+            "data-docs/metrics",
+            "data-docs/dimensions"
+          ]
+        }
       ]
     }
   ],
