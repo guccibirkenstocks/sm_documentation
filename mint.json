@@ -74,8 +74,21 @@
       ]
     },
     {
-      "group": "Get to know your data",
+      "group": "Get to know your report",
       "pages": [
+        "report-docs/looker-report-overview",
+        {
+          "group": "Report Pages",
+          "pages": [
+            "report-docs/report-pages/executive-summary"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Get to know the data",
+      "pages": [
+        "data-docs/data-freshness",
         {
           "group": "Data Sources",
           "pages": [
