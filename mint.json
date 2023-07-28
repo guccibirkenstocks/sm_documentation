@@ -53,7 +53,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": ["introduction", "quickstart", "development"]
     },
     {
@@ -71,6 +71,34 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/update",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Tables, Metrics & Dimensions",
+      "pages": [
+        {
+          "group": "Tables",
+          "pages": [
+            {
+              "group": "Looker Studio",
+              "pages": [
+                "data-docs/looker/executive_summary",
+                "data-docs/looker/order_details",
+                "data-docs/looker/customer_details"
+              ]
+            },
+            {
+              "group": "BigQuery",
+              "pages": [
+                "data-docs/tables/bigquery/executive_summary",
+                "data-docs/tables/bigquery/order_details",
+                "data-docs/tables/bigquery/customer_details"
+            ]
+            }
+          ]
+        },
+        "data-docs/metrics",
+        "data-docs/dimensions"
       ]
     }
   ],
