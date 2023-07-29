@@ -32,8 +32,15 @@
     {
       "name": "Metric & Dimension Reference",
       "url": "https://airtable.com/apptitEI5nyySjQPN/shrod5jpppJiiMlWl"
+    },
+    {
+      "name": "Insights & Strategy",
+      "url": "insights/insights-overview"
     }
   ],
+  "primaryTab": {
+    "name": "Documentation"
+  },
   "anchors": [
     {
       "name": "Documentation",
@@ -137,27 +144,41 @@
       ]
     },
     {
-      "group": "Mintlify",
+      "group": "Insights & Strategy",
       "pages": [
+        "insights/insights-overview",
         {
-          "group": "Getting Started",
-          "pages": ["introduction", "quickstart", "development"]
-        },
-        {
-          "group": "Essentials",
-          "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-        },
-        {
-          "group": "API Documentation",
-          "pages": ["api-reference/authentication"]
-        },
-        {
-          "group": "Endpoint Examples",
+          "group": "Common Analyses",
           "pages": [
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/create",
-            "api-reference/endpoint/update",
-            "api-reference/endpoint/delete"
+            {
+              "group": "Product Performance",
+              "pages": [
+                "insights/common-analyses/product-performance/top-selling-products"
+              ]
+            },
+            {
+              "group": "Cohort Analyses",
+              "pages": [
+                "insights/common-analyses/cohort-analyses/customer-retention",
+                "insights/common-analyses/cohort-analyses/revenue-retention",
+                "insights/common-analyses/cohort-analyses/cohort-ltv",
+                "insights/common-analyses/cohort-analyses/cohort-lto"
+              ]
+            },
+            {
+              "group": "Subscription Program",
+              "pages": [
+                "insights/common-analyses/subscription-program-analyses/top-converting-products",
+                "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
+              ]
+            },
+            {
+              "group": "Marketing Performance",
+              "pages": [
+                "insights/common-analyses/marketing-performance/roas-by-channel",
+                "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
+              ]
+            }
           ]
         }
       ]
