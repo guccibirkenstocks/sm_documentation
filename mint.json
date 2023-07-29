@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Source Medium Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/sm_logo.svg",
+    "light": "/logo/sm_logo.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/logo/sm_square_logo.webp",
   "colors": {
     "primary": "#9563FF",
     "light": "#AE87FF",
@@ -60,7 +60,20 @@
   ],
   "navigation": [
     {
-      "group": "Get to know your report",
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/intro-to-sm",
+        "getting-started/why-source-medium",
+        {
+          "group": "Cold Start Guide",
+          "pages": [
+            "getting-started/cold-start/cold-start-guide-home"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Getting To Know Your Report",
       "pages": [
         "report-docs/looker-report-overview",
         {
@@ -72,7 +85,7 @@
       ]
     },
     {
-      "group": "Get to know the data",
+      "group": "Getting To Know The Data",
       "pages": [
         "data-docs/data-freshness",
         {
