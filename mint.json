@@ -30,8 +30,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Metric & Dimension Reference",
+      "url": "https://airtable.com/apptitEI5nyySjQPN/shrod5jpppJiiMlWl"
     }
   ],
   "anchors": [
@@ -52,32 +52,6 @@
     }
   ],
   "navigation": [
-    {
-      "group": "Mintlify",
-      "pages": [
-        {
-          "group": "Getting Started",
-          "pages": ["introduction", "quickstart", "development"]
-        },
-        {
-          "group": "Essentials",
-          "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-        },
-        {
-          "group": "API Documentation",
-          "pages": ["api-reference/authentication"]
-        },
-        {
-          "group": "Endpoint Examples",
-          "pages": [
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/create",
-            "api-reference/endpoint/update",
-            "api-reference/endpoint/delete"
-          ]
-        }
-      ]
-    },
     {
       "group": "Get to know your report",
       "pages": [
@@ -158,6 +132,32 @@
             },
             "data-docs/metrics",
             "data-docs/dimensions"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Mintlify",
+      "pages": [
+        {
+          "group": "Getting Started",
+          "pages": ["introduction", "quickstart", "development"]
+        },
+        {
+          "group": "Essentials",
+          "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+        },
+        {
+          "group": "API Documentation",
+          "pages": ["api-reference/authentication"]
+        },
+        {
+          "group": "Endpoint Examples",
+          "pages": [
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/update",
+            "api-reference/endpoint/delete"
           ]
         }
       ]
