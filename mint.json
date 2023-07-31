@@ -60,6 +60,13 @@
   ],
   "navigation": [
     {
+      "group": "Internal",
+      "pages": [
+        "docs-for-docs/documentation-best-practices",
+        "docs-for-docs/styling-components"
+      ]
+    },
+    {
       "group": "Getting Started",
       "pages": [
         "getting-started/intro-to-sm",
