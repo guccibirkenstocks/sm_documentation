@@ -3,9 +3,14 @@ title: 'Styling Components, Tips & Tricks'
 description: 'Useful elements or tips for writing beautiful documentation in markdown'
 icon: 'star'
 ---
+### Mintlify
+Mintlify's documentation is pretty good, and can be found [here](https://mintlify.com/docs/quickstart)
 
+
+
+### Components to use often
 #### Accordians & Accordian Groups
-Accordians are dropdown components for toggling content.
+Accordians are dropdown components for toggling content, allowing users to opt-in to / hide certain information.  These can be great tools for backing in added context & info without creating visual clutter.
 
 ```markdown HelloWorld.mdx
 <Accordion title="I am an Accordion.">
@@ -40,3 +45,20 @@ Accordian Groups aggregate multiple Accordian component under a single element.
     Check out the [Accordion](/content/components/accordion) docs for all the supported props.
   </Accordion>
 </AccordionGroup>
+
+
+#### Reusable Snippets
+
+``` markdown tooltip-CPA.mdx
+<Tooltip tip="CPA = Spend / New Customers">CPA</Tooltip>
+```
+```markdown
+<Snippet file="snippet-example.mdx" />
+```
+<Snippet file="tooltip-CPA.mdx"/>
+
+#### Hover Tooltips
+
+<Tooltip tip="This is a tooltip!">Hover over me</Tooltip>
+
+blah blah sentence <Snippet file="tooltip-CPA.mdx" />

@@ -62,8 +62,9 @@
     {
       "group": "Internal",
       "pages": [
-        "docs-for-docs/documentation-best-practices",
-        "docs-for-docs/styling-components"
+        "internal/documentation-best-practices",
+        "internal/styling-components",
+        "internal/styling-scratch-pad"
       ]
     },
     {
