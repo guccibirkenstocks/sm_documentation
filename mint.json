@@ -62,8 +62,6 @@
     {
       "group": "Internal",
       "pages": [
-        "internal/documentation-best-practices",
-        "internal/styling-components",
         "internal/styling-scratch-pad"
       ]
     },
