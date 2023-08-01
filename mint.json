@@ -94,10 +94,23 @@
             {
               "group": "Available Integrations",
               "pages": [
-                "data-docs/data-sources/available-integrations/availabe-integrations-overview",
-                "data-docs/data-sources/available-integrations/shopify-overview",
-                "data-docs/data-sources/available-integrations/google-ads-overview",
-                "data-docs/data-sources/available-integrations/facebook-ads-overview"
+                "data-docs/data-sources/available-integrations/integrations-overview",
+                {
+                  "group": "Marketing",
+                  "pages": [
+                    "data-docs/data-sources/available-integrations/google-ads-overview",
+                    "data-docs/data-sources/available-integrations/facebook-ads-overview"
+                  ]
+                },
+                {
+                  "group": "Sales",
+                  "pages": [
+                    "data-docs/data-sources/available-integrations/shopify-overview",
+                    "data-docs/data-sources/available-integrations/stripe-overview",
+                    "data-docs/data-sources/available-integrations/chargebee-overview",
+                    "data-docs/data-sources/available-integrations/amazon-sc-overview"
+                  ]
+                }
               ]
             },
             {
