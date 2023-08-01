@@ -60,12 +60,6 @@
   ],
   "navigation": [
     {
-      "group": "Internal",
-      "pages": [
-        "internal/styling-scratch-pad"
-      ]
-    },
-    {
       "group": "Getting Started",
       "pages": [
         "getting-started/intro-to-sm",
@@ -97,12 +91,13 @@
         {
           "group": "Data Sources",
           "pages": [
-            "data-sources-overview",
             {
               "group": "Available Integrations",
               "pages": [
+                "data-docs/data-sources/available-integrations/availabe-integrations-overview",
                 "data-docs/data-sources/available-integrations/shopify-overview",
-                "data-docs/data-sources/available-integrations/google-ads-overview"
+                "data-docs/data-sources/available-integrations/google-ads-overview",
+                "data-docs/data-sources/available-integrations/facebook-ads-overview"
               ]
             },
             {
@@ -200,6 +195,12 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "group": "Internal",
+      "pages": [
+        "internal/styling-scratch-pad"
       ]
     }
   ],
