@@ -182,6 +182,32 @@
           ]
         }
       ]
+    },
+    {
+      "group": "FAQs",
+      "pages": [
+        {
+          "group": "Data Clarifications",
+          "pages": [
+            {
+              "group": "Configuration Sheet",
+              "pages": []
+            },
+            {
+              "group": "Subscriptions",
+              "pages": []
+            }
+          ]
+        },
+        {
+          "group": "Strategy FAQs",
+          "pages": []
+        },
+        {
+          "group": "Account Management",
+          "pages": []
+        }
+      ]
     }
   ],
   "footerSocials": {
