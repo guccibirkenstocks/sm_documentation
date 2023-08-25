@@ -64,6 +64,7 @@
       "pages": [
         "getting-started/intro-to-sm",
         "getting-started/why-source-medium",
+        "getting-started/getting-started-checklist",
         {
           "group": "Cold Start Guide",
           "pages": [
@@ -73,7 +74,7 @@
       ]
     },
     {
-      "group": "Getting To Know Your Report",
+      "group": "Getting To Know Your Dashboard",
       "pages": [
         "report-docs/looker-report-overview",
         {
@@ -206,6 +207,26 @@
                 "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "FAQs",
+      "pages": [
+        {
+          "group": "Data Clarification",
+          "pages": [
+          ]
+        },
+        {
+          "group": "Insights & Strategy FAQs",
+          "pages": [
+          ]
+        },
+        {
+          "group": "Account Management",
+          "pages": [
           ]
         }
       ]
