@@ -76,9 +76,9 @@
     {
       "group": "Getting To Know Your Dashboard",
       "pages": [
-        "report-docs/looker-report-overview",
+        "report-docs/looker-dashboard-overview",
         {
-          "group": "Report Pages",
+          "group": "Dashboard Pages",
           "pages": [
             "report-docs/report-pages/executive-summary"
           ]
@@ -89,54 +89,64 @@
       "group": "Getting To Know The Data",
       "pages": [
         "data-docs/data-freshness",
+        "data-docs/data-architecture",
         {
-          "group": "Data Sources",
+          "group": "Data Inputs",
           "pages": [
-            {
-              "group": "Available Integrations",
-              "pages": [
-                "data-docs/data-sources/available-integrations/integrations-overview",
-                {
-                  "group": "Marketing",
-                  "pages": [
-                    "data-docs/data-sources/available-integrations/google-ads-overview",
-                    "data-docs/data-sources/available-integrations/facebook-ads-overview"
-                  ]
-                },
-                {
-                  "group": "Sales",
-                  "pages": [
-                    "data-docs/data-sources/available-integrations/shopify-overview",
-                    "data-docs/data-sources/available-integrations/stripe-overview",
-                    "data-docs/data-sources/available-integrations/chargebee-overview",
-                    "data-docs/data-sources/available-integrations/amazon-sc-overview"
-                  ]
-                }
-              ]
-            },
+            "data-docs/raw-data-source-overviews/amazon-sc-overview",
+            "data-docs/raw-data-source-overviews/chargebee-overview",
+            "data-docs/raw-data-source-overviews/facebook-ads-overview",
+            "data-docs/raw-data-source-overviews/ga4-overview",
+            "data-docs/raw-data-source-overviews/google-ads-overview",
+            "data-docs/raw-data-source-overviews/hubspot-overview",
+            "data-docs/raw-data-source-overviews/klaviyo-overview",
+            "data-docs/raw-data-source-overviews/mailchimp-overview",
+            "data-docs/raw-data-source-overviews/shopify-overview",
+            "data-docs/raw-data-source-overviews/stripe-overview",
             {
               "group": "Configuration Sheet",
               "pages": [
-                "data-docs/data-sources/configuration-sheet/configuration-sheet-overview",
-                "data-docs/data-sources/configuration-sheet/channel-mapping-tab",
-                "data-docs/data-sources/configuration-sheet/targets-tab",
-                "data-docs/data-sources/configuration-sheet/sales-tab",
+                "data-docs/raw-data-source-overviews/configuration-sheet/configuration-sheet-overview",
+                "data-docs/raw-data-source-overviews/configuration-sheet/channel-mapping-tab",
+                "data-docs/raw-data-source-overviews/configuration-sheet/targets-tab",
+                "data-docs/raw-data-source-overviews/configuration-sheet/sales-tab",
                 {
                   "group": "Costs",
                   "pages": [
-                    "data-docs/data-sources/configuration-sheet/costs/marketing-costs",
+                    "data-docs/raw-data-source-overviews/configuration-sheet/costs/marketing-costs",
                     {
                       "group": "COGS",
                       "pages": [
-                        "data-docs/data-sources/configuration-sheet/costs/cogs-overview",
-                        "data-docs/data-sources/configuration-sheet/costs/product-costs",
-                        "data-docs/data-sources/configuration-sheet/costs/shipping-costs",
-                        "data-docs/data-sources/configuration-sheet/costs/fulfilllment-costs",
-                        "data-docs/data-sources/configuration-sheet/costs/merchant-processing-fees"
+                        "data-docs/raw-data-source-overviews/configuration-sheet/costs/cogs-overview",
+                        "data-docs/raw-data-source-overviews/configuration-sheet/costs/product-costs",
+                        "data-docs/raw-data-source-overviews/configuration-sheet/costs/shipping-costs",
+                        "data-docs/raw-data-source-overviews/configuration-sheet/costs/fulfilllment-costs",
+                        "data-docs/raw-data-source-overviews/configuration-sheet/costs/merchant-processing-fees"
                       ]
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Data Tables",
+          "pages": [
+            {
+              "group": "Looker Studio Tables (Data Sources)",
+              "pages": [
+                "data-docs/tables/executive_summary_looker",
+                "data-docs/tables/customer_details_looker",
+                "data-docs/tables/order_details_looker"
+              ]
+            },
+            {
+              "group": "Direct Data Access Tables (BigQuery, Snowflake etc.)",
+              "pages": [
+                "data-docs/tables/executive_summary_dda",
+                "data-docs/tables/customer_details_dda",
+                "data-docs/tables/order_details_dda"
               ]
             }
           ]
@@ -207,6 +217,61 @@
                 "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        {
+          "group": "Available Integrations",
+          "pages": [
+            "data-inputs/available-integrations/integrations-overview",
+            {
+              "group": "Sales & Subscription",
+              "pages": [
+                "data-inputs/available-integrations/shopify-integration",
+                "data-inputs/available-integrations/stripe-integration",
+                "data-inputs/available-integrations/chargebee-integration",
+                "data-inputs/available-integrations/amazon-sc-integration"
+              ]
+            },
+            {
+              "group": "Marketing",
+              "pages": [
+                "data-inputs/available-integrations/google-ads-integration",
+                "data-inputs/available-integrations/facebook-ads-integration"
+              ]
+            },
+            {
+              "group": "Email & SMS",
+              "pages": [
+                "data-inputs/available-integrations/klaviyo-integration",
+                "data-inputs/available-integrations/hubspot-integration",
+                "data-inputs/available-integrations/mailchimp-integration"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Configuration Sheet",
+          "pages": [
+            "data-inputs/configuration-sheet/configuration-sheet-overview",
+            {
+              "group": "Costs",
+              "pages": [
+                "data-inputs/configuration-sheet/costs/cogs-overview",
+                "data-inputs/configuration-sheet/costs/marketing-costs",
+                "data-inputs/configuration-sheet/costs/product-costs",
+                "data-inputs/configuration-sheet/costs/shipping-costs",
+                "data-inputs/configuration-sheet/costs/fulfillment-costs", 
+                "data-inputs/configuration-sheet/costs/merchant-processing-fees"
+              ]
+            },
+            "data-inputs/configuration-sheet/channel-mapping-tab",
+            "data-inputs/configuration-sheet/sales-tab",
+            "data-inputs/configuration-sheet/targets-tab"
           ]
         }
       ]
