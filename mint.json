@@ -35,7 +35,11 @@
     },
     {
       "name": "Insights & Strategy",
-      "url": "/insights"
+      "url": "insights-and-strategy"
+    },
+    {
+      "name": "",
+      "url": "insights-and-strategy"
     }
   ],
   "primaryTab": {
@@ -184,7 +188,7 @@
     {
       "group": "Insights & Strategy",
       "pages": [
-        "insights/insights-overview",
+        "insights-and-strategy/insights-overview",
         {
           "group": "Common Analyses",
           "pages": [
