@@ -34,11 +34,11 @@
       "url": "https://airtable.com/apptitEI5nyySjQPN/shrod5jpppJiiMlWl"
     },
     {
-      "name": "Insights & Strategy",
-      "url": "insights-and-strategy"
+      "name": "Integrations",
+      "url": "data-inputs"
     },
     {
-      "name": "",
+      "name": "Insights & Strategy",
       "url": "insights-and-strategy"
     }
   ],
@@ -97,16 +97,42 @@
         {
           "group": "Data Inputs",
           "pages": [
-            "data-docs/raw-data-source-overviews/amazon-sc-overview",
-            "data-docs/raw-data-source-overviews/chargebee-overview",
-            "data-docs/raw-data-source-overviews/facebook-ads-overview",
-            "data-docs/raw-data-source-overviews/ga4-overview",
-            "data-docs/raw-data-source-overviews/google-ads-overview",
-            "data-docs/raw-data-source-overviews/hubspot-overview",
-            "data-docs/raw-data-source-overviews/klaviyo-overview",
-            "data-docs/raw-data-source-overviews/mailchimp-overview",
-            "data-docs/raw-data-source-overviews/shopify-overview",
-            "data-docs/raw-data-source-overviews/stripe-overview",
+            {
+              "group": "Sales",
+              "pages": [
+                "data-docs/raw-data-source-overviews/amazon-sc-overview",
+                "data-docs/raw-data-source-overviews/chargebee-overview",
+                "data-docs/raw-data-source-overviews/shopify-overview",
+                "data-docs/raw-data-source-overviews/stripe-overview"
+              ]
+            },
+            {
+              "group": "Subscription",
+              "pages": [
+                "data-docs/raw-data-source-overviews/google-ads-overview"
+              ]
+            },
+            {
+              "group": "Marketing",
+              "pages": [
+                "data-docs/raw-data-source-overviews/facebook-ads-overview",
+                "data-docs/raw-data-source-overviews/google-ads-overview"
+              ]
+            },
+            {
+              "group": "Email & SMS",
+              "pages": [
+                "data-docs/raw-data-source-overviews/klaviyo-overview",
+                "data-docs/raw-data-source-overviews/hubspot-overview",
+                "data-docs/raw-data-source-overviews/mailchimp-overview"
+              ]
+            },
+            {
+              "group": "Analytics",
+              "pages": [
+                "data-docs/raw-data-source-overviews/ga4-overview"
+              ]
+            },
             {
               "group": "Configuration Sheet",
               "pages": [
@@ -195,30 +221,30 @@
             {
               "group": "Product Performance",
               "pages": [
-                "insights/common-analyses/product-performance/top-selling-products"
+                "insights-and-strategy/common-analyses/product-performance/top-selling-products"
               ]
             },
             {
               "group": "Cohort Analyses",
               "pages": [
-                "insights/common-analyses/cohort-analyses/customer-retention",
-                "insights/common-analyses/cohort-analyses/revenue-retention",
-                "insights/common-analyses/cohort-analyses/cohort-ltv",
-                "insights/common-analyses/cohort-analyses/cohort-lto"
+                "insights-and-strategy/common-analyses/cohort-analyses/customer-retention",
+                "insights-and-strategy/common-analyses/cohort-analyses/revenue-retention",
+                "insights-and-strategy/common-analyses/cohort-analyses/cohort-ltv",
+                "insights-and-strategy/common-analyses/cohort-analyses/cohort-lto"
               ]
             },
             {
               "group": "Subscription Program",
               "pages": [
-                "insights/common-analyses/subscription-program-analyses/top-converting-products",
+                "insights-and-strategy/common-analyses/subscription-program-analyses/top-converting-products",
                 "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
               ]
             },
             {
               "group": "Marketing Performance",
               "pages": [
-                "insights/common-analyses/marketing-performance/roas-by-channel",
-                "insights/common-analyses/subscription-program-analyses/subscription-program-retention"
+                "insights-and-strategy/common-analyses/marketing-performance/roas",
+                "insights-and-strategy/common-analyses/subscription-program-analyses/subscription-program-retention"
               ]
             }
           ]
@@ -226,12 +252,18 @@
       ]
     },
     {
-      "group": "Integrations",
+      "group": "Data Hygeine",
+      "pages": [
+        "insights-and-strategy/data-hygeine/importance-of-good-data-hygeine"
+      ]
+    },
+    {
+      "group": "Data Inputs",
       "pages": [
         {
-          "group": "Available Integrations",
+          "group": "Available Integrations - connect your data",
           "pages": [
-            "data-inputs/available-integrations/integrations-overview",
+            "data-inputs/available-integrations/all-available-integrations",
             {
               "group": "Sales & Subscription",
               "pages": [
@@ -252,14 +284,13 @@
               "group": "Email & SMS",
               "pages": [
                 "data-inputs/available-integrations/klaviyo-integration",
-                "data-inputs/available-integrations/hubspot-integration",
                 "data-inputs/available-integrations/mailchimp-integration"
               ]
             }
           ]
         },
         {
-          "group": "Configuration Sheet",
+          "group": "Configuration Sheet - enrich your data",
           "pages": [
             "data-inputs/configuration-sheet/configuration-sheet-overview",
             {
@@ -277,6 +308,12 @@
             "data-inputs/configuration-sheet/sales-tab",
             "data-inputs/configuration-sheet/targets-tab"
           ]
+        },
+        {
+          "group": "Premium Integrations",
+          "pages": [
+            "data-inputs/available-integrations/hubspot-integration"
+          ]
         }
       ]
     },
@@ -286,16 +323,19 @@
         {
           "group": "Data Clarification",
           "pages": [
+            "internal/placeholder-page"
           ]
         },
         {
           "group": "Insights & Strategy FAQs",
           "pages": [
+            "internal/placeholder-page"
           ]
         },
         {
           "group": "Account Management",
           "pages": [
+            "internal/placeholder-page"
           ]
         }
       ]
